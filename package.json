@@ -1,0 +1,36 @@
+{
+  "name": "dsh-dual-peak",
+  "version": "1.0.0",
+  "description": "雙供應商峰谷對照（DSH 插件）：同時顯示 DeepSeek 官方 API 與 Ollama Cloud 的尖峰/離峰狀態，並建議當前最便宜的供應商",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "peak-valley",
+    "ollama-cloud",
+    "pricing",
+    "time-of-use"
+  ]
+}

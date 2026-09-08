@@ -1,0 +1,5 @@
+# dsh-dual-peak bundle patch：插入雙供應商峰谷對照插件行。
+# 安裝：`dsh plugin --profile web add github:valkytie/dsh-dual-peak`。
+- insert:
+    - id: dsh-dual-peak
+      name: 'dsh-dual-peak'

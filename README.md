@@ -1,5 +1,9 @@
 # dsh-dual-peak
 
+> ⚠️ **已轉移**：本專案已整合並改名為 **[dsh-ollama-tools](https://github.com/valkytie/dsh-ollama-tools)**。
+> 新插件包除了原本的雙供應商峰谷對照，還加入了 **Ollama 餘額/用量查詢** 與 **切到 Ollama 模型時自動提醒輸出精簡到 64K 以內**。
+> 請改用 `dsh plugin --profile web add github:valkytie/dsh-ollama-tools` 安裝，本 repo 不再維護。
+
 DeepSeek Harness (DSH) 插件：**雙供應商峰谷對照**。
 
 左下角懸浮膠囊同時顯示 **DeepSeek 官方 API** 與 **Ollama Cloud** 兩邊的尖峰/離峰狀態，並直接建議「現在該用哪個供應商」，讓你在兩邊峰谷時段互補時自動選最便宜的一方。
